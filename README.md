@@ -2,13 +2,13 @@
 
 The goal of this project is to _visualise_ schema relations in MODX. After a fruitless afternoon trying to navigate from one side of the ACL to another, I decided it was time to do this.
 
+## Current progress:
+![Foreign Key Progress](progress.png)
+
 ## Outcomes
 
 1. A nice visual diagram showing the relations between models
 2. A SQL schema using InnoDB tables with foreign keys (and using `ON DELETE NO ACTION` so no unexpected side effects from cascades)
-
-## Current progress:
-![Foreign Key Progress](progress.png)
 
 ## How you can contribute
 The work is being done using the free [MySQL Workbench](http://dev.mysql.com/downloads/workbench/). To contribute, [download](http://dev.mysql.com/downloads/workbench/) and install it, open `modx_schema.mwb` in Workbench and make your edits.
